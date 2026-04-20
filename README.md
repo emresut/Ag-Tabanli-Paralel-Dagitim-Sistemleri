@@ -2,10 +2,14 @@
 Proje 5 Hakkında Bilgiler:
 --
 
-Dataset olarak aşağıdaki linkteki dataset kullanılmıştır.
+Veri Temizleme ve ETL Süreçleri Tasarımı
+
+Dataset olarak linkteki dataset kullanılmıştır.
 https://www.kaggle.com/datasets/desolution01/messy-employee-dataset?resource=download
 
-Dataset raw_employee_table isimli table'a import edildikten sonra messy_employee_table oluşturulmuştur ve aynı dataset oraya aktarılmıştır.
+SQL Server Management Studio kullanılmıştır. (MSSQL)
+
+Dataset raw_employee_table isimli table'a import edildikten sonra messy_employee_table oluşturulur ve aynı dataset oraya aktarılır.
 
 Ardından messy_employee_table table'ının içindeki veriler bir sql script kullanılarak bozulur.
 
