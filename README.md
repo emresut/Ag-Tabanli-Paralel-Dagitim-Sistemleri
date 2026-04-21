@@ -1,9 +1,9 @@
 Ad Soyad: Emre Süt
+
 Öğrenci Numarası: 22290048
 
 Rapor repoda pdf şeklinde mevcuttur.
 
---
 Proje 5 Hakkında:
 --
 
@@ -26,7 +26,6 @@ main.sql scripti ile veri temizleme, veri dönüştürme, veri yükleme işlemle
 
 Ayrıca data_result_reports dizini içindeki script'lerden düzeltilmiş olan toplam problem sayısına, clean_employee_table içindeki null barındıran column sayısına, tüm table'lar için toplam employee sayısına bakılabilir.
 
---
 Proje 2 Hakkında:
 --
 
