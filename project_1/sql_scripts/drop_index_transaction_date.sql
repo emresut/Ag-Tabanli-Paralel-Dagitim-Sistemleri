@@ -1,0 +1,2 @@
+DROP INDEX IF EXISTS IX_transactions_date
+ON online_store_transactions;
