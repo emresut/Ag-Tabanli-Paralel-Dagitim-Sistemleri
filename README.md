@@ -44,3 +44,20 @@ Sonrasında, restore etmeden önce dosya içindeki mantıksal isimler öğrenili
 Restore edilir ve restore edilmiş db test edilir.
 
 (Dizin içindeki sql script'ler çalıştırılma sırasına göre isimlendirilmiştir. Yukarıda anlatılan her işi sql scriptler yapar.)
+
+Proje 1 Hakkında:
+--
+
+Veritabanı Performans Optimizasyonu ve İzleme
+
+Dataset olarak linkteki dataset kullanılmıştır.
+https://www.kaggle.com/datasets/mountboy/online-store-customer-transactions-1m-rows/data
+
+SQL Server Management Studio kullanılmıştır. (MSSQL)
+
+İlk önce bazı sorgular için başlangıç durumu analiz edilir sonrasında DMV(Dynamic Management Views) ile performans takibi yapılır.
+Bu performans takibi süresince sys.dm_exec_query_stats ve sys.dm_exec_query_stats şeklinde 2 görünüm kullanılır.
+
+Sonrasında bazı indeksleme işlemleri yapılır ve çıkan sonuçlarla birlikte sorgu iyileştirme net şekilde görülür.
+
+Logical reads, elapsed time, user_seeks, user_scans gibi değerlerin değişimi üzerinden başlangıç durumu ile karşılaştırma yapılır.
