@@ -1,7 +1,7 @@
 DECLARE @name NVARCHAR(100);
 DECLARE @sql NVARCHAR(MAX);
 
--- SET @name = 'Alice';
+-- SET @name = 'Bob';
 SET @name = ''' OR 1=1 --';
 
 
