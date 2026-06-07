@@ -2,7 +2,7 @@ Ad Soyad: Emre Süt
 
 Öğrenci Numarası: 22290048
 
-Rapor repoda pdf şeklinde mevcuttur.
+Repoda hem vize projelerinin bulunduğu rapor hem de bütün projelerin bulunduğu rapor mevcuttur.
 
 Proje 5 Hakkında:
 --
@@ -54,6 +54,8 @@ Proje 1 Hakkında:
 
 **Veritabanı Performans Optimizasyonu ve İzleme**
 
+Proje 1 Youtube video linki: https://www.youtube.com/watch?v=QD2mwkCVdaw 
+
 Dataset olarak linkteki dataset kullanılmıştır.
 https://www.kaggle.com/datasets/mountboy/online-store-customer-transactions-1m-rows/data
 
@@ -66,10 +68,14 @@ Sonrasında bazı indeksleme işlemleri yapılır ve çıkan sonuçlarla birlikt
 
 Logical reads, elapsed time, user_seeks, user_scans gibi değerlerin değişimi üzerinden başlangıç durumu ile karşılaştırma yapılır.
 
+(project_1 dizinindeki sql_scripts dizininin içindeki sql scriptler yukarıda anlatılan her işi yapar.)
+
 Proje 3 Hakkında:
 --
 
 **Veritabanı Güvenliği ve Erişim Kontrolü**
+
+Proje 3 Youtube video linki: https://www.youtube.com/watch?v=vvzgEJHLORw
 
 SQL Server Management Studio kullanılmıştır. (MSSQL)
 
@@ -92,6 +98,8 @@ Proje 6 Hakkında:
 
 **Veritabanı Yükseltme ve Sürüm Yönetimi**
 
+Proje 6 Youtube video linki: https://www.youtube.com/watch?v=PGDPbX4FQJs
+
 SQL Server Management Studio kullanılmıştır. (MSSQL)
 
 Projede, daha önce proje 5 için de kullanılan çalışan bilgilerini barındıran veri seti kullanılmıştır.
@@ -103,3 +111,5 @@ Sürüm yönetimi ve sürüm geçiş süreci için 3 sürüm tasarlanmıştır.
 Geri dönüş (Rollback) planı rollback_v3_to_v2.sql ve rollback_v2_to_v1.sql gibi sql script'leri üzerinden oluşturulmuştur.
 
 DDL trigger ile log tablosu üzerinden şema ve versiyon değişikliklerinin takibi yapılmıştır.
+
+(project_6 dizinindeki sql_scripts dizininin içindeki sql scriptler yukarıda anlatılan her işi yapar.)
